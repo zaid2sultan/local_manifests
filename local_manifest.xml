@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote names -->
-  <remote name="sn" fetch="https://github.com/Zaid2Sultan/" />
+  <remote name="zaid" fetch="https://github.com/Zaid2Sultan/" />
 
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="pixel-devices" revision="thirteen-plus" />
   <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="pixel-devices" revision="thirteen-plus" />
