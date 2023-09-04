@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote names -->
+  <remote name="lab" fetch="https://gitlab.com/zaid2sultan/" />
   <remote name="zaid2sultan" fetch="https://github.com/zaid2sultan/" />
   <remote name="pixel" fetch="https://github.com/PixelExperience" />
   <remote name="pixel-devices" fetch="https://github.com/PixelExperience-Devices" />
