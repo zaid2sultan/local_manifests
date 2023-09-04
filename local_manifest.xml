@@ -17,4 +17,4 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="zaid2sultan/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="zaid2sultan/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-</manifest
+</manifest>
