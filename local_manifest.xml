@@ -2,6 +2,9 @@
 <manifest>
   <!-- remote names -->
   <remote name="zaid2sultan" fetch="https://github.com/zaid2sultan/" />
+  <remote name="pixel" fetch="https://github.com/PixelExperience" />
+  <remote name="pixel-devices" fetch="https://github.com/PixelExperience-Devices" />
+  <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="pixel-devices" revision="thirteen-plus" />
   <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="pixel-devices" revision="thirteen-plus" />
