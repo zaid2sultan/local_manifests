@@ -21,7 +21,7 @@
 
 
 
-  <!-- /* common mtk */ -->
+  <!-- /* common files */ -->
 
   <!-- hardware -->
   <project path="hardware/oplus" name="android_hardware_oplus.git" remote="LOS" revision="lineage-20" clone-depth="1" />
@@ -32,7 +32,7 @@
   <!-- /* rombuilders stuff */ -->
 
   <!-- clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="sn" revision="13.0" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="sn" revision="13.0" clone-depth="1" />
     
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
  
