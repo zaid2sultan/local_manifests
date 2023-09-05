@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- remote names -->
-  <remote name="sn" fetch="https://github.com/Zaid2Sultan/" />
 
-  <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="pixel-devices" revision="thirteen-plus" />
-  <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="pixel-devices" revision="thirteen-plus" />
-  <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="pixel-devices" revision="thirteen" clone-depth="1" />
-  
-  <project name="hardware_oneplus" path="hardware/oneplus" remote="pixel" revision="thirteen-plus" />
-  
-  <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="pixel-devices" revision="thirteen" clone-depth="1" />
+  <remote name="zaid2sultan" fetch="https://github.com/zaid2sultan" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="lab" fetch="https://gitlab.com/zaid2sultan" />
+  <remote name="sn" fetch="https://gitlab.com/snnbyyds" />
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="cr" fetch="https://gitlab.com/crdroidandroid/ />
 
-  <project name="proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" remote="sn" revision="thirteen" clone-depth="1" />
-  <project name="vendor_oneplus_fajita" path="vendor/oneplus/fajita" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
-  <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
+  <!-- /* device specific */ -->
 
-  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="snnbyyds/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-</manifest
+  <!-- device -->
+  <project path="device/oneplus/fajita" name="android_device_oneplus_fajita.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+
+  <!-- vendor -->
+  <project path="vendor/oneplus/fajita" name="vendor_oneplus_fajita.git" remote="zaid2sultan" revision="thirteen" clone-depth="1" />
+
+  <!-- kernel -->
+  <project path="kernel/oneplus/sdm845" name="android_kernel_oneplus_sdm845.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+
+
+
+  <!-- /* common mtk */ -->
+
+  <!-- hardware -->
+  <project path="hardware/oplus" name="android_hardware_oplus.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+
+  <!-- sepolicy -->
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr.git" remote="LOS" revision="lineage-20.0" clone-depth="1" />
+
+  <!-- /* rombuilders stuff */ -->
+
+  <!-- clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="sn" revision="13.0" clone-depth="1" />
+    
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+ 
+</manifest>
