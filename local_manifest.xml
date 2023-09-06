@@ -6,7 +6,7 @@
   <remote name="lab" fetch="https://gitlab.com/zaid2sultan" />
   <remote name="sn" fetch="https://gitlab.com/snnbyyds" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="cr" fetch="https://gitlab.com/crdroidandroid/ />
+  <remote name="cr" fetch="https://gitlab.com/crdroidandroid/" />
 
   <!-- /* device specific */ -->
 
