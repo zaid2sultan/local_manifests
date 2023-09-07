@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>  
+<manifest>
 <remote name="Zaid" fetch="https://github.com/zaid2sultan" />
 <remote name="EvoX" fetch="https://github.com/Evolution-X" />
 <remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
@@ -7,15 +7,15 @@
 
 <!--============Trees============-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX-Devices" revision="tiramisu-4.4" />
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Zaid" revision="tiramisu" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Zaid" revision="tiramisu" />
+<project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX-Devices" revision="tiramisu-4.4" />
+<project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Zaid" revision="tiramisu" />
+<project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Zaid" revision="tiramisu" />
 
 <!--=========Replacements=========-->
 
 <!--=============Clang============-->
 
 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
