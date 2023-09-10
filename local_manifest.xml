@@ -3,22 +3,22 @@
 
 <!-- Fetching Sources -->
         
-        <remote name="Stable-Stuffs"
-                fetch="https://github.com/Stable-Stuffs" />
+        <remote name="Zaid"
+                fetch="https://github.com/zaid2sultan" />
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
        
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" />
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" clone-depth="1" />
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Zaid" revision="13.0" clone-depth="1" />
         
 <!-- Replacement -->
 
         <remove-project name="vendor_aosp" />
-        <project path="vendor/aosp" name="vendor_aosp" remote="Stable-Stuffs" revision="thirteen" />
+        <project path="vendor/aosp" name="vendor_aosp" remote="Zaid" revision="thirteen" />
 
 <!-- Extra's -->
 
