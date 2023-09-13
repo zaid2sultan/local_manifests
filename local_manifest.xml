@@ -6,8 +6,12 @@
         <remote name="aospa"
                 fetch="https://github.com/AOSPA-lavender" />
 
+        <remote name="Stable-Stuffs"
+                fetch="https://github.com/Stable-Stuffs" />
+        
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
+
 
 <!-- Device Trees -->
 
