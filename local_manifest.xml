@@ -3,15 +3,15 @@
 
 <!-- Fetching Sources -->
 
-        <remote name="Stable-Stuffs"
-                fetch="https://github.com/Stable-Stuffs" />
+        <remote name="aospa"
+                fetch="https://github.com/AOSPA-lavender" />
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" />
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="aospa" revision="topaz" />
         <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" />
         <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" clone-depth="1" />
 
