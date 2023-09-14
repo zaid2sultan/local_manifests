@@ -9,6 +9,9 @@
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
+        <remote name="nexus"
+                fetch="https://github.com/projects-nexus" />
+
 <!-- Device Trees -->
 
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" />
