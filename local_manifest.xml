@@ -8,6 +8,9 @@
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
+        
+        <remote name="nexus" 
+           fetch="https://github.com/projects-nexus" />
 
 <!-- Device Trees -->
 
