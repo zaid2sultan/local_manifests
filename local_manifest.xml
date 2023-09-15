@@ -2,7 +2,7 @@
 <manifest>
 <!-- remote names -->
 <remote name="gitlab" fetch="https://gitlab.com/snnbyyds/" />
-<remote name="zaid" fetch="https://github.com/zaid2sultan" />
+<remote name="zaid" fetch="https://github.com/zaid2sultan/" />
 <remote name="pixel-devices" fetch="https://github.com/PixelExperience-Devices/" />
 <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
 <remote name="pixel" fetch="https://github.com/PixelExperience/" />
