@@ -3,20 +3,20 @@
 
 <!-- Fetching Sources -->
 
-        <remote name="Zaid"
-                fetch="https://github.com/zaid2sultan" />
+        <remote name="Evo"
+                fetch="https://github.com/Evolution-X-Devices" />
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
-        <remote name="nexus"
-                fetch="https://github.com/projects-nexus" />
+        <remote name="Coptan"
+                fetch="https://github.com/Coptan99" />
 
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Zaid" revision="pixelos13-lav" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
-        <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" clone-depth="1" />
+        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Evo" revision="tiramisu" />
+        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Coptan" revision="tiramisu" clone-depth="1" />
 
 <!-- Extra's -->
 
