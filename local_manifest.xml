@@ -3,8 +3,8 @@
 
 <!-- Fetching Sources -->
 
-        <remote name="Stable-Stuffs"
-                fetch="https://github.com/Stable-Stuffs" />
+        <remote name="Zaid"
+                fetch="https://github.com/zaid2sultan" />
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
