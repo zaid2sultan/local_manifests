@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<!-- Fetching Sources -->
-
-        <remote name="Zaid"
-                fetch="https://github.com/zaid2sultan" />
-
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-
-<!-- Device Trees -->
-
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Zaid" revision="awaken13" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Zaid" revision="13.0" clone-depth="1" />
-
-<!-- Extra's -->
-
-        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
  
+ <remote name="girl"
+          fetch="https://gitlab.com/sanjeevstunner" />
+
+ <remote name="github1"
+          fetch="https://github.com/mitmac29" />
+ 
+ <!-- Trees -->
+ <project path="device/xiaomi/lavender" name="device_xiaomi_lavender13.git" remote="github1" revision="13.0" clone-depth="1" />
+ <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender13.git" remote="github1" revision="13.0" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
+
+ <!-- hal -->
+
+ <remove-project name="LineageOS/android_hardware_qcom_media" />
+
+ <remove-project name="LineageOS/android_hardware_qcom_audio" />
+
+ <remove-project name="LineageOS/android_hardware_qcom_display" />
+
+ <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display.git" remote="github1" revision="arrow-13.1-caf-msm8998" clone-depth="1" />
+
+ <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media.git" remote="github1" revision="arrow-13.1-caf-msm8998" clone-depth="1" />
+
+ <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio.git" remote="github1" revision="arrow-13.1-caf-msm8998" clone-depth="1" />
+ <!-- Clang --> 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="girl" revision="master" clone-depth="1" />
+
+ <!-- v4a -->
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="github1" revision="main" clone-depth="1" />
+
 </manifest>
