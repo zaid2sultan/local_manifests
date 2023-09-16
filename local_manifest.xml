@@ -18,7 +18,7 @@
         <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
         <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Zaid" revision="13.0" clone-depth="1" />
 
-        <project path="android/device/lineage_sepolicy" name="android_device_lineage_sepolicy" remote="LOS" revision="lineage-20.0" clone-depth="1" />
+        <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="LOS" revision="lineage-20.0" clone-depth="1" />
 
 <!-- Extra's -->
 
