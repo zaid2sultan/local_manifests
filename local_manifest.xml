@@ -8,6 +8,9 @@
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
+        
+        <remote name="github"
+                fetch="https://github.com/mozzaru" />
 
         <remote name="LOS"
                 fetch="https://github.com/LineageOS" />
@@ -20,6 +23,11 @@
 
         <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="LOS" revision="lineage-20.0" clone-depth="1" />
 
+<!-- Replacement -->
+
+        <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-20.0-legacy-um" />
+        <project path="device/qcom/sepolicy-legacy-um" name="mozzaru/android_device_qcom_sepolicy" remote="github" revision="lineage-20.0-legacy-um" /> 
+        
 <!-- Extra's -->
 
         <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
