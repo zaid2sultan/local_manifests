@@ -8,12 +8,18 @@
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
-        
-        <remote name="github"
-                fetch="https://github.com/mozzaru" />
 
         <remote name="LOS"
                 fetch="https://github.com/LineageOS" />
+
+        <remote name="los"
+               fetch="https://github.com/LineageOS"
+                
+        <remote name="mozzaru"
+              fetch="https://github.com/mozzaru"
+
+        <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="los" revision="lineage-20.0-legacy-um" />
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="mozzaru" revision="lineage-20.0-legacy-um" />
 
 <!-- Device Trees -->
 
