@@ -8,18 +8,18 @@
   <!--Trees-->
   <project path="device/oneplus/fajita"
            name="device_oneplus_fajita"
-           remote="Al"
-           revision="alpha-13" />
+           remote="Zaid"
+           revision="pixelos13" />
            
   <project path="vendor/oneplus/fajita"
            name="vendor_oneplus_fajita"
-           remote="Al"
-           revision="alpha-13" />
+           remote="Zaid"
+           revision="thirteen" />
 
-  <project path="kernel/oneplus/sdm845"
-           name="kernel_oneplus_sdm845"
-           remote="Al"
-           revision="alpha-13" />
+  <project path="kernel/oneplus/fajita"
+           name="kernel_oneplus_fajita"
+           remote="Zaid"
+           revision="thirteen" />
 
 <!--OP Apps-->
   <project path="vendor/oneplus/apps"
@@ -29,9 +29,9 @@
   
 <!--Hardware-->
   <project path="hardware/oneplus"
-           name="android_hardware_oneplus"
-           remote="hard"
-           revision="13.0-op6" />
+           name="hardware_oneplus"
+           remote="Zaid"
+           revision="thirteen" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
