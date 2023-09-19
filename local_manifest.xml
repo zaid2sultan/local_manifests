@@ -13,21 +13,11 @@
            remote="Al"
            revision="alpha-13" />
            
-  <project path="device/oneplus/sdm845-common"
-           name="device_oneplus_sdm845-common"
-           remote="Al"
-           revision="alpha-13" />
-           
   <project path="vendor/oneplus/fajita"
            name="vendor_oneplus_fajita"
            remote="Al"
            revision="alpha-13" />
 
-  <project path="vendor/oneplus/sdm845-common"
-           name="vendor_oneplus_sdm845-common"
-           remote="Al"
-           revision="alpha-13" />
-           
   <project path="kernel/oneplus/sdm845"
            name="kernel_oneplus_sdm845"
            remote="Al"
@@ -39,12 +29,6 @@
            remote="OP"
            revision="13.0" />
   
-<!--Ih8sn-->
-  <project path="vendor/ih8sn"
-           name="vendor_ih8sn"
-           remote="Legendleo90"
-           revision="thirteen" />
-
 <!--Hardware-->
   <project path="hardware/oneplus"
            name="android_hardware_oneplus"
