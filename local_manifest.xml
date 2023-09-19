@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="Al" fetch="https://github.com/Oneplus-6T"/>
+  <remote name="Zaid" fetch="https://github.com/zaid2sultan"/>
   <remote name="OP" fetch="https://gitlab.com/akshatleo9456"/>
-  <remote name="hard" fetch="https://github.com/crdroidandroid"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
