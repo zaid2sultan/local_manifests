@@ -18,8 +18,16 @@
         <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
         <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" clone-depth="1" />
 
-<!-- Extra's -->
-
-        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
- 
+<!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="clang-r450784d" 
+           remote="ImSurajxD" 
+           revision="master" />
+           
+<!--Toolchain-->
+  <project path="prebuilts/clang/host/linux-x86/trb_clang"
+           name="trb_clang" 
+           remote="trb" 
+           revision="17" clone-depth="1" />
+  
 </manifest>
