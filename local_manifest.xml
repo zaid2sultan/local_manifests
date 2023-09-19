@@ -8,15 +8,30 @@
 
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
+        
+        <remote name="OP" fetch="https://gitlab.com/akshatleo9456" />
 
-        <remote name="nexus"
-                fetch="https://github.com/projects-nexus" />
+<!--Trees-->
+  <project path="device/oneplus/fajita"
+           name="device_oneplus_fajita"
+           remote="Al"
+           revision="alpha-13" />
 
-<!-- Device Trees -->
+        <project path="vendor/oneplus/fajita"
+           name="vendor_oneplus_fajita"
+           remote="Al"
+           revision="alpha-13" />
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Zaid" revision="pixelos13-lav" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
-        <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" clone-depth="1" />
+        <project path="kernel/oneplus/sdm845"
+           name="kernel_oneplus_sdm845"
+           remote="Al"
+           revision="alpha-13" />
+
+<!--OP Apps-->
+  <project path="vendor/oneplus/apps"
+           name="vendor_oneplus_apps"
+           remote="OP"
+           revision="13.0" />
 
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
