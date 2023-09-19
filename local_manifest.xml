@@ -5,7 +5,7 @@
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-  <!--Trees-->
+<!--Trees-->
   <project path="device/oneplus/fajita"
            name="device_oneplus_fajita"
            remote="Zaid"
