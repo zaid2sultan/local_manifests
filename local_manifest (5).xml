@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
+  <remote name="Al" fetch="https://github.com/Oneplus-6T"/>
+  <remote name="OP" fetch="https://gitlab.com/akshatleo9456"/>
+  <remote name="hard" fetch="https://github.com/crdroidandroid"/>
+  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  
+  <!--Trees-->
+  <project path="device/oneplus/fajita"
+           name="device_oneplus_fajita"
+           remote="Al"
+           revision="alpha-13" />
+           
+  <project path="device/oneplus/sdm845-common"
+           name="device_oneplus_sdm845-common"
+           remote="Al"
+           revision="alpha-13" />
+           
+  <project path="vendor/oneplus/fajita"
+           name="vendor_oneplus_fajita"
+           remote="Al"
+           revision="alpha-13" />
+
+  <project path="vendor/oneplus/sdm845-common"
+           name="vendor_oneplus_sdm845-common"
+           remote="Al"
+           revision="alpha-13" />
+           
+  <project path="kernel/oneplus/sdm845"
+           name="kernel_oneplus_sdm845"
+           remote="Al"
+           revision="alpha-13" />
+
+<!--OP Apps-->
+  <project path="vendor/oneplus/apps"
+           name="vendor_oneplus_apps"
+           remote="OP"
+           revision="13.0" />
+  
+<!--Ih8sn-->
+  <project path="vendor/ih8sn"
+           name="vendor_ih8sn"
+           remote="Legendleo90"
+           revision="thirteen" />
+
+<!--Hardware-->
+  <project path="hardware/oneplus"
+           name="android_hardware_oneplus"
+           remote="hard"
+           revision="13.0-op6" />
+  
+<!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="clang-r450784d" 
+           remote="ImSurajxD" 
+           revision="master" />
+           
+<!--Toolchain-->
+  <project path="prebuilts/clang/host/linux-x86/trb_clang"
+           name="trb_clang" 
+           remote="trb" 
+           revision="17" clone-depth="1" />
+  
+</manifest>
