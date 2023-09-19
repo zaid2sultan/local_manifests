@@ -10,10 +10,13 @@
                 fetch="https://gitlab.com/ImSurajxD" />
 
         <remote name="los"
-               fetch="https://github.com/LineageOS" />
+                fetch="https://github.com/LineageOS" />
 
         <remote name="mozzaru"
-              fetch="https://github.com/mozzaru" />
+                fetch="https://github.com/mozzaru" />
+
+        <remote name="Amritorock" 
+                fetch="https://gitlab.com/Amritorock" />
 
         <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="los" revision="lineage-20.0-legacy-um" />
         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="mozzaru" revision="lineage-20.0-legacy-um" />
@@ -26,6 +29,7 @@
 
 <!-- Extra's -->
 
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Amritorock" revision="master" clone-depth="1" />
         <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
  
 </manifest>
