@@ -9,7 +9,7 @@
   <project path="device/oneplus/fajita"
            name="device_oneplus_fajita"
            remote="Zaid"
-           revision="pixelos13" />
+           revision="awaken13" />
 
   <project path="vendor/oneplus/fajita"
            name="vendor_oneplus_fajita"
