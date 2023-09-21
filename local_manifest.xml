@@ -6,6 +6,8 @@
                 revision="refs/heads/sapphire" />
         <remote name="xenxynon"
                 fetch="https://github.com/xenxynon" />
+        <remote name="P404"
+                fetch="https://github.com/P404-lavender" />
         <remote name="XS"
                 fetch="https://github.com/XenStuff" />
         <remote name="lab"
