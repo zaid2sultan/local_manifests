@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Fetching Sources -->
+        <remote name="aospa-xenxynon"
+                fetch="https://github.com/AOSPA-lavender"
+                revision="refs/heads/sapphire" />
+        <remote name="xenxynon"
+                fetch="https://github.com/xenxynon" />
+        <remote name="XS"
+                fetch="https://github.com/XenStuff" />
+        <remote name="lab"
+                fetch="https://github.com/xenxynon-lab-404"
+                revision="refs/heads/shinka" />
 
-        <remote name="aospa"
-                fetch="https://github.com/AOSPA-lavender" />
-
-        <remote name="Stable-Stuffs"
-                fetch="https://github.com/Stable-Stuffs" />
-        
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-
-
-<!-- Device Trees -->
-
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="aospa" revision="topaz" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" />
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Stable-Stuffs" revision="13.0" clone-depth="1" />
-
-<!-- Extra's -->
-
-        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
- 
+        <!-- Stuff -->
+        <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" clone-depth="1" />
+        <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" clone-depth="1" />
+        <project path="hardware/qcom/display" name="android_hardware_qcom" revision="pa-audio" remote="aospa-xenxynon" clone-depth="1" />
+        <project path="hardware/qcom/media" name="android_hardware_qcom" revision="pa-media" remote="aospa-xenxynon" clone-depth="1" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom" revision="pa-audio" remote="aospa-xenxynon" clone-depth="1" />
+        <project path="keys" name="certs" remote="xenxynon" revision="pa" />
+        <!-- Trees -->
+        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="aospa-xenxynon" />
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="aospa-xenxynon" />
+        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="aospa-xenxynon" />
+        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="aospa-xenxynon" />
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aospa-xenxynon" />
+        <project path="kernel/xiaomi/sdm660" name="projects-nexus/android_xtreme_kernel_lavender" remote="github" revision="sapphire" clone-depth="1" />
+        <!-- remove & reclone -->
+        <remove-project name="AOSPA/android_vendor_aospa" />
+        <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-xenxynon" clone-depth="1" >
+          <linkfile src="build.sh" dest="rom-build.sh" />
+        </project>
+        <remove-project name="AOSPA/android_device_qcom_common" />
+        <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa-xenxynon" clone-depth="1" >
+          <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+        </project>
+        <remove-project name="AOSPA/android_external_f2fs-tools" />
+        <project path="external/f2fs-tools" name="AzurE-007/android_external_f2fs-tools" remote="github" revision="sapphire" clone-depth="1" />
+        <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_wfd" />
+        <remove-project name="platform/vendor/qcom-opensource/usb" />
+        <project path="vendor/qcom-opensource/usb" name="usb" remote="lab" clone-depth="1" >
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
+        </project>
 </manifest>
