@@ -6,8 +6,10 @@
                 revision="refs/heads/sapphire" />
         <remote name="xenxynon"
                 fetch="https://github.com/xenxynon" />
-        <remote name="P404"
+        <remote name="p404"
                 fetch="https://github.com/P404-lavender" />
+        <remote name="kernel"
+                fetch="https://github.com/projects-nexus" />
         <remote name="XS"
                 fetch="https://github.com/XenStuff" />
         <remote name="lab"
@@ -22,8 +24,8 @@
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom" revision="pa-audio" remote="aospa-xenxynon" clone-depth="1" />
         <project path="keys" name="certs" remote="xenxynon" revision="pa" />
         <!-- Trees -->
-        <project path="device/xiaomi/lavender" name="pe-tree" remote="P404" revision="13-l" />
-        <project path="device/xiaomi/sdm660-common" name="pe-tree" remote="P404" revision="13-sdm" />
+        <project path="device/xiaomi/lavender" name="pe-tree" remote="p404" revision="13-l" />
+        <project path="device/xiaomi/sdm660-common" name="pe-tree" remote="p404" revision="13-sdm" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="aospa-xenxynon" revision="topaz-qpr2" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="aospa-xenxynon" revision="topaz-qpr2" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aospa-xenxynon" />
