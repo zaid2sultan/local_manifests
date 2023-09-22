@@ -34,15 +34,4 @@
         <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-xenxynon" clone-depth="1" >
           <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
-        <remove-project name="AOSPA/android_device_qcom_common" />
-        <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa-xenxynon" clone-depth="1" >
-          <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-        </project>
-        <remove-project name="AOSPA/android_external_f2fs-tools" />
-        <project path="external/f2fs-tools" name="AzurE-007/android_external_f2fs-tools" remote="github" revision="sapphire" clone-depth="1" />
-        <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_wfd" />
-        <remove-project name="platform/vendor/qcom-opensource/usb" />
-        <project path="vendor/qcom-opensource/usb" name="usb" remote="lab" clone-depth="1" >
-        <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
-        </project>
 </manifest>
