@@ -2,8 +2,7 @@
 <manifest>
 
         <remote name="aospa-xenxynon"
-                fetch="https://github.com/AOSPA-lavender"
-                revision="refs/heads/sapphire" />
+                fetch="https://github.com/AOSPA-lavender" />
         <remote name="xenxynon"
                 fetch="https://github.com/xenxynon" />
         <remote name="p404"
@@ -30,7 +29,7 @@
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aospa-xenxynon" />
         <!-- remove & reclone -->
         <remove-project name="AOSPA/android_vendor_aospa" />
-        <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-xenxynon" clone-depth="1" >
+        <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-xenxynon" clone-depth="1" />
           <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
 </manifest>
