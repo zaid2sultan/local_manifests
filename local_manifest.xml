@@ -11,6 +11,8 @@
                 fetch="https://github.com/projects-nexus" />
         <remote name="XS"
                 fetch="https://github.com/XenStuff" />
+        <remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
         <remote name="lab"
                 fetch="https://github.com/xenxynon-lab-404"
                 revision="refs/heads/shinka" />
@@ -27,6 +29,7 @@
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="aospa-xenxynon" revision="topaz-qpr2" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="aospa-xenxynon" revision="topaz-qpr2" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aospa-xenxynon" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         <!-- remove & reclone -->
         <remove-project name="AOSPA/android_vendor_aospa" />
         <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa-xenxynon" clone-depth="1" >
