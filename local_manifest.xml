@@ -41,7 +41,7 @@
            remote="Shape"
            revision="android_13" />
 
-   <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Neebe3289/android_prebuilts_clang_host_linux-x86" remote="ice" revision="clang-r498229" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Neebe3289/android_prebuilts_clang_host_linux-x86" remote="ice" revision="clang-r498229" clone-depth="1" />
 
-   <!--<project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="ice" revision="master" clone-depth="1" />-->
+  <!--<project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="ice" revision="master" clone-depth="1" />-->
 </manifest>
