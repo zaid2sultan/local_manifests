@@ -9,29 +9,33 @@
   <project path="device/oneplus/fajita"
            name="device_oneplus_fajita"
            remote="Zaid"
-           revision="awaken13" />
+           revision="android_13" />
+
+  <project path="device/oneplus/sdm845-common"
+           name="device_oneplus_sdm845-common"
+           remote="Zaid"
+           revision="android_13" />
 
   <project path="vendor/oneplus/fajita"
            name="vendor_oneplus_fajita"
-           remote="Zaid"
-           revision="thirteen" />
+           remote="Shape"
+           revision="android_13" />
+
+  <project path="vendor/oneplus/sdm845-common"
+           name="vendor_oneplus_sdm845-common"
+           remote="Shape"
+           revision="android_13" />
 
   <project path="kernel/oneplus/fajita"
            name="kernel_oneplus_fajita"
-           remote="Zaid"
-           revision="thirteen" />
-
-<!--OP Apps-->
-  <project path="vendor/oneplus/apps"
-           name="vendor_oneplus_apps"
-           remote="OP"
-           revision="13.0" />
+           remote="Shape"
+           revision="android_13" />
 
 <!--Hardware-->
   <project path="hardware/oneplus"
            name="hardware_oneplus"
-           remote="Zaid"
-           revision="thirteen" />
+           remote="Shape"
+           revision="android_13" />
 
 <!--Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
