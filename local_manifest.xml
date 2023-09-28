@@ -34,7 +34,7 @@
 
 <!--Hardware-->
   <project path="hardware/oneplus"
-           name="hardware_oneplus"
+           name="android_hardware_oneplus"
            remote="Shape"
            revision="android_13" />
 
