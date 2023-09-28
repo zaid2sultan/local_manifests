@@ -27,8 +27,8 @@
            remote="Shape"
            revision="android_13" />
 
-  <project path="kernel/oneplus/fajita"
-           name="kernel_oneplus_fajita"
+  <project path="kernel/oneplus/sdm845"
+           name="kernel_oneplus_sdm845"
            remote="Shape"
            revision="android_13" />
 
