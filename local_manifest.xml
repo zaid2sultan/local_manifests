@@ -4,7 +4,7 @@
   <remote name="Shape" fetch="https://github.com/ShapeShiftOS-Devices" />
   <remote name="fire" fetch="https://github.com/mozzaru" />
   <remote name="ice" fetch="https://gitlab.com" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="lose" fetch="https://github.com/LineageOS/" />
 
 <!--Trees-->
   <project path="device/oneplus/fajita"
