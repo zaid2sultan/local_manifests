@@ -6,6 +6,9 @@
   <remote name="ice" fetch="https://gitlab.com" />
   <remote name="lose" fetch="https://github.com/LineageOS/" />
 
+  <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="lose" revision="lineage-20.0-legacy-um" />
+ <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="fire" revision="lineage-20.0-legacy-um" />
+
 <!--Trees-->
   <project path="device/oneplus/fajita"
            name="device_oneplus_fajita"
