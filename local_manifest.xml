@@ -11,9 +11,9 @@
 
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-trece" remote="Zaid" revision="13-4.4" />
-        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-trece" remote="Zaid" revision="13-4.4" />
-        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-trece" remote="Zaid" revision="EAS-qti" clone-depth="1" />
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Zaid" revision="thunder" />
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Zaid" revision="13.0" clone-depth="1" />
 
 <!-- Extra's -->
 
