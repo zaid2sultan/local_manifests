@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Cr" fetch="https://github.com/crdroidandroid"/>
-  <remote name="lab" fetch="https://github.com/crdroidandroid"/>
+  <remote name="lab" fetch="https://gitlab.com/crdroidandroid"/>
   <remote name="OP" fetch="https://github.com/Oneplus6-Series"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
@@ -27,8 +27,8 @@
            remote="lab"
            revision="13.0" />
 
-  <project path="kernel/oneplus/fajita"
-           name="android_kernel_oneplus_fajita"
+  <project path="kernel/oneplus/sdm845"
+           name="android_kernel_oneplus_sdm845"
            remote="Cr"
            revision="13.0" />
 
