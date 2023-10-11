@@ -1,35 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="Cr" fetch="https://github.com/crdroidandroid"/>
+  <remote name="lab" fetch="https://github.com/crdroidandroid"/>
+  <remote name="OP" fetch="https://gitlab.com/akshatleo9456"/>
+  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-<!-- Fetching Sources -->
+<!--Trees-->
+  <project path="device/oneplus/fajita"
+           name="device_oneplus_fajita"
+           remote="OP"
+           revision="13.0" />
 
-        <remote name="Zaid"
-                fetch="https://github.com/zaid2sultan" />
+  <project path="vendor/oneplus/fajita"
+           name="vendor_oneplus_fajita"
+           remote="lab"
+           revision="13.0" />
 
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
+  <project path="vendor/oneplus/fajita"
+           name="vendor_oneplus_fajita"
+           remote="lab"
+           revision="13.0" />
 
-        <remote name="los"
-                fetch="https://github.com/LineageOS" />
+  <project path="kernel/oneplus/fajita"
+           name="android_kernel_oneplus_fajita"
+           remote="Cr"
+           revision="13.0" />
 
-        <remote name="mozzaru"
-                fetch="https://github.com/mozzaru" />
+<!--Hardware-->
+  <project path="hardware/oneplus"
+           name="android_hardware_oneplus"
+           remote="Cr"
+           revision="thirteen" />
 
-        <remote name="Amritorock" 
-                fetch="https://gitlab.com/Amritorock" />
+<!--Clang-->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
+           name="clang-r450784d"
+           remote="ImSurajxD"
+           revision="master" />
 
-        <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="los" revision="lineage-20.0-legacy-um" />
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="mozzaru" revision="lineage-20.0-legacy-um" />
+<!--Toolchain-->
+  <project path="prebuilts/clang/host/linux-x86/trb_clang"
+           name="trb_clang"
+           remote="trb"
+           revision="17" clone-depth="1" />
 
-<!-- Device Trees -->
-
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-p" remote="Zaid" revision="awaken13" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-p" remote="Zaid" revision="13.0" />
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-p" remote="Zaid" revision="13.0" clone-depth="1" />
-
-<!-- Extra's -->
-
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Amritorock" revision="master" clone-depth="1" />
-        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
- 
 </manifest>
