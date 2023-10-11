@@ -36,7 +36,7 @@
   <project path="hardware/oneplus"
            name="android_hardware_oneplus"
            remote="Cr"
-           revision="thirteen" />
+           revision="13.0-op6" />
 
 <!--Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d"
