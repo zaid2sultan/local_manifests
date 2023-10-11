@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Cr" fetch="https://github.com/crdroidandroid"/>
   <remote name="lab" fetch="https://github.com/crdroidandroid"/>
-  <remote name="OP" fetch="https://gitlab.com/akshatleo9456"/>
+  <remote name="OP" fetch="https://github.com/Oneplus6-Series"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
@@ -12,13 +12,18 @@
            remote="OP"
            revision="13.0" />
 
-  <project path="vendor/oneplus/fajita"
-           name="vendor_oneplus_fajita"
-           remote="lab"
+  <project path="device/oneplus/sdm845-common"
+           name="device_oneplus_sdm845-common"
+           remote="OP"
            revision="13.0" />
 
   <project path="vendor/oneplus/fajita"
-           name="vendor_oneplus_fajita"
+           name="proprietary_vendor_oneplus_fajita"
+           remote="lab"
+           revision="13.0" />
+
+  <project path="vendor/oneplus/sdm845-common"
+           name="proprietary_vendor_oneplus_sdm845-common"
            remote="lab"
            revision="13.0" />
 
