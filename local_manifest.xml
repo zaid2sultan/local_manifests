@@ -35,7 +35,7 @@
 <!--Hardware-->
   <project path="hardware/oneplus"
            name="android_hardware_oneplus"
-           remote="Cr"
+           remote="OP"
            revision="13.0-op6" />
 
 <!--Clang-->
