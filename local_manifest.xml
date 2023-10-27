@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="OP" fetch="https://github.com/Oneplus6-series" />
+<remote name="OP" fetch="https://github.com/Oneplus6-Series" />
 
   <!--Trees-->
-  <project path="device/oneplus/fajita" name="device_oneplus_fajita" remote="OP" revision="vol14" />         
-  <project path="device/oneplus/sdm845-common" name="device_oneplus_sdm845-common" remote="OP" revision="vol14" />        
+  <project path="device/oneplus/fajita" name="device_oneplus_fajita" remote="OP" revision="volt14" />         
+  <project path="device/oneplus/sdm845-common" name="device_oneplus_sdm845-common" remote="OP" revision="volt14" />        
   <project path="vendor/oneplus/fajita" name="vendor_oneplus_fajita" remote="OP" revision="14.0" />      
   <project path="vendor/oneplus/sdm845-common" name="vendor_oneplus_sdm845-common" remote="OP" revision="14.0" />           
-  <project path="kernel/oneplus/sdm845" name="temp_kernel" remote="OP" revision="udc" />
+  <project path="kernel/oneplus/sdm845" name="kernel_temp" remote="OP" revision="udc" />
+  <project path="hardware/oneplus" name="hardware_oneplus" remote="OP" revision="14.0" />
 
   <remove-project name="hardware_qcom_display" />
   <remove-project name="hardware_qcom_audio" />
