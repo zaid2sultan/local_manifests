@@ -5,8 +5,8 @@
 <remote name="kernel" fetch="https://github.com/bananafunction" />
 
   <!--Trees-->
-  <project path="device/oneplus/fajita" name="device_oneplus_fajita" remote="OP" revision="volt14" />
-  <project path="device/oneplus/sdm845-common" name="device_oneplus_sdm845-common" remote="OP" revision="volt14" />
+  <project path="device/oneplus/fajita" name="device_oneplus_fajita" remote="OP" revision="14.0" />
+  <project path="device/oneplus/sdm845-common" name="device_oneplus_sdm845-common" remote="OP" revision="derp14" />
   <project path="vendor/oneplus/fajita" name="vendor_oneplus_fajita" remote="OP" revision="14.0" />
   <project path="vendor/oneplus/sdm845-common" name="vendor_oneplus_sdm845-common" remote="OP" revision="14.0" />
   <project path="kernel/oneplus/sdm845" name="android_kernel_oneplus_sdm845" remote="kernel" revision="lineage-20" />
